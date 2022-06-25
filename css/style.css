@@ -1,0 +1,342 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: #f5f5f5;
+}
+
+.content {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 190px;
+    background: url("../image/head-bj.jpg");
+    background-size: cover;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+header .search {
+    float: right;
+    margin-top: 75px;
+}
+
+header .search>input {
+    width: 260px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: #fff;
+    padding: 0 10px;
+
+}
+
+.nav:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.nav .nav-item {
+    float: left;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    position: relative;
+    overflow: hidden;
+}
+
+.nav .nav-item:hover {
+    overflow: unset;
+}
+
+.nav .nav-item a {
+    color: #000;
+}
+
+.nav .nav-item.active a {
+    color: #6880fa;
+    font-weight: bold;
+}
+
+.nav .nav-item .second {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 60px;
+    display: none;
+    transition: all .5s;
+}
+
+.nav .nav-item .second .second-item {
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    background: #6880fa;
+}
+
+.nav .nav-item .second .second-item a {
+    color: #fff;
+}
+
+.nav .nav-item:hover .second {
+    display: block;
+}
+
+
+main {
+    width: 100%;
+    padding: 50px 0;
+}
+
+main aside {
+    float: left;
+    width: 280px;
+}
+
+main aside h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+main aside>img {
+    display: block;
+    width: 100%;
+}
+
+.content .message {
+    float: right;
+    width: 400px;
+    padding-top: 100px;
+
+}
+table {
+    margin-left:      20px;
+    margin-right:     20px;
+    border:           thin solid black;
+    caption-side:     bottom;
+    border-collapse:  collapse;
+  }
+  
+
+  
+  td, th {
+    border:           thin dotted gray;
+    padding:          5px;
+  }
+
+.message td th {
+   border: 1px solid black; 
+}
+
+
+.content .message p {
+    line-height: 40px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.content .share {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.content .share h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.content .share p {
+    line-height: 30px;
+    margin-bottom: 20px;
+    text-indent: 2em;
+}
+
+
+.hobby {
+    width: 100%;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 0 6px 4px #eaeaea;
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+.hobby .image {
+    float: left;
+    width: 300px;
+}
+
+.hobby .image>img {
+    display: block;
+    width: 100%;
+}
+
+.hobby .info {
+    float: right;
+    width: 620px;
+}
+
+.hobby .info h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.hobby .info p {
+    font-size: 14px;
+    line-height: 30px;
+}
+
+
+.member {
+    float: left;
+    width: 230px;
+    border-radius: 8px;
+    border: 1px solid #6880fa;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.member>img {
+    display: block;
+    width: 100%;
+}
+
+.member .name {
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.member p {
+    color: #666;
+    line-height: 30px;
+}
+
+
+.education {
+    width: 100%;
+}
+
+.education>img {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.education h5 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.education p {
+    margin-bottom: 30px;
+    color: #666;
+    line-height: 25px;
+}
+
+
+.contact {
+    width: 700px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 30px 0;
+    overflow: hidden;
+}
+
+.contact ul li {
+    line-height: 24px;
+    margin-top: 16px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.contact ul li span {
+    vertical-align: middle;
+    padding-right: 12px;
+}
+
+.contact ul li .message_in {
+    width: 600px;
+    height: 40px;
+    border: 1px solid #999999;
+    vertical-align: middle;
+    line-height: 22px;
+}
+
+.contact ul li .message_te {
+    width: 600px;
+    height: 90px;
+    border: 1px solid #999999;
+    vertical-align: middle;
+    line-height: 18px;
+}
+
+.contact ul li .message_btn {
+    width: 64px;
+    height: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: hand;
+}
+
+
+.title {
+    text-align: center;
+    font-size: 30px;
+    color: #6880fa;
+    transform: rotate(10deg);
+}
+
+.work {
+    width: 100%;
+    overflow: hidden;
+}
+
+.work li {
+    float: left;
+    width: 310px;
+    margin: 20px 10px;
+}
+
+.work li a>img {
+    display: block;
+    width: 100%;
+}
+
+.work li>p {
+    line-height: 60px;
+    text-align: center;
+    background: #ccc;
+}
+
+
+footer {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #000;
+    color: #fff;
+}
